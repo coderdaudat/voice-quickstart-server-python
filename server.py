@@ -1,8 +1,9 @@
 import os
-from flask import Flask, request
+from flask import Flask, request, redirect
 from twilio.jwt.access_token import AccessToken, VoiceGrant
 from twilio.rest import Client
 import twilio.twiml
+from __future__ import with_statement   # Only necessary for Python 2.5
 from twilio.twiml.voice_response import VoiceResponse
 
 ACCOUNT_SID = 'ACebd7d3a78e2fdda9e51239bad6b09f97'
@@ -84,7 +85,7 @@ def welcome():
 
     return str(resp)
   
-  @app.route("/handle-key", methods=['GET', 'POST'])
+@app.route("/handle-key", methods=['GET', 'POST'])
 def handle_key():
     """Handle key press from a user."""
 
