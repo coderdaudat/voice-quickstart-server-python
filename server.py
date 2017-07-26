@@ -10,7 +10,7 @@ API_KEY_SECRET = 'Um8JRwIztNvOFED19jRxubSAZXgTmOmH'
 PUSH_CREDENTIAL_SID = 'CRfb350e6ad971569433db08ecff29f636'
 APP_SID = 'AP5d46bf675557ec0f73b1d08afcfcdc75'
 
-IDENTITY = '+17606215500'
+IDENTITY = 'voice_test'
 CALLER_ID = 'quick_start'
 
 app = Flask(__name__)
