@@ -7,12 +7,12 @@ from __future__ import with_statement   # Only necessary for Python 2.5
 from twilio.twiml.voice_response import VoiceResponse
 
 ACCOUNT_SID = 'ACebd7d3a78e2fdda9e51239bad6b09f97'
-API_KEY = 'SK9aba275e9489e6395bbfc54f4a3996e3'
-API_KEY_SECRET = 'sIN1vEk34h0vAKsWZI6TPtaQZTSoW8BN'
-PUSH_CREDENTIAL_SID = 'CR44599c693892770b86e583ccd5c3e350'
-APP_SID = 'APbdbf05382a556d66bc8419f36e51a6d6'
+API_KEY = 'SK028e5bbb3d0b19cb333dfe99ba10c35f'
+API_KEY_SECRET = 'Um8JRwIztNvOFED19jRxubSAZXgTmOmH'
+PUSH_CREDENTIAL_SID = 'CRfb350e6ad971569433db08ecff29f636'
+APP_SID = 'AP5d46bf675557ec0f73b1d08afcfcdc75'
 
-IDENTITY = 'voice_test'
+IDENTITY = '+17606215500'
 CALLER_ID = 'quick_start'
 
 app = Flask(__name__)
